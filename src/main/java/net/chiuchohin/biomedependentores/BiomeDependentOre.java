@@ -13,8 +13,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(BiomeSpecificOres.MODID)
-public class BiomeSpecificOres
+@Mod(BiomeDependentOre.MODID)
+public class BiomeDependentOre
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "biomedependentores";
@@ -24,7 +24,7 @@ public class BiomeSpecificOres
 
    
 
-    public BiomeSpecificOres()
+    public BiomeDependentOre()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the commonSetup method for modloading
